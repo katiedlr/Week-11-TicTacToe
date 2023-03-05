@@ -1,0 +1,68 @@
+.background-image {
+    background-image: url('https://img.freepik.com/free-photo/3d-abstract-space-sky-with-stars-nebula_1048-8320.jpg?w=1480&t=st=1677705637~exp=1677706237~hmac=9de6582ac49a924ac38299b87437d41be46f8b40395632d4d67df3fba060762c');
+    background-size: cover;
+}
+.header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+    margin-bottom: 40px;
+}
+#h1 {
+    font-size: 54px;
+}
+.container {
+    width: 300px;
+    margin: 0 auto; /* center the container */
+  }
+  .row {
+    border: 1px solid white; /* border for the rows */
+    height: 100px; /* height of rows */
+  }
+  .col-sm-4 {
+    color: white;
+    border: 1px solid white; /* border the boxes */
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center; /* center text */
+    line-height: 100px; /* vertically center text */
+    cursor: pointer; /* change cursor when hovering */
+  }
+  .col-sm-4:hover {
+    background-color: #b44ca9;
+  }
+#restart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#restart {
+    font-weight: bold;
+}
+#turn {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+}
+#message {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 0.5);
+    margin-top: 20px;
+}
+@keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  .flash {
+    animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
